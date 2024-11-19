@@ -1,0 +1,25 @@
+.body {
+    background-color: darkgray;
+}
+
+.register {
+    width: 300px;
+    background-color: #ffff;
+    border-bottom: 10px solid #46A358;
+    padding: 52px 100px 40px 100px;
+    margin: 50px auto;
+}
+
+.default-input {
+    font-size: 14px;
+    line-height: 16px;
+    color: #A5A5A5;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+    width: 270px;
+
+}
+
+.line {
+    margin: 0 0 16px 0;
+}
