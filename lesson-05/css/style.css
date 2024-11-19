@@ -1,0 +1,47 @@
+
+/*НЕ ПОЛЬЗУЕМСЯ СЕЛЕКТОРОМ ПО ТЕГУ*/
+p {
+    font-size: 60px;
+}
+
+h1 {
+    font-size: 100px;
+}
+
+/*ПОЛЬЗУЕМСЯ СЕЛЕКТОРОМ ПО КЛАССУ ИЛИ ID*/
+.text {
+    font-size: 48px;
+}
+
+#parent {
+    font-size: 64px;
+}
+
+.title {
+    font-family: 'Arial', sans-serif;
+    font-size: 56px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    /*color: #46A358;*/
+    /*color: rgb(70, 163, 88);*/
+    /*color: rgba(70, 163, 88, 0.3);*/
+}
+
+.article {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 100px;
+    text-align:center;
+    letter-spacing: 3px;
+    word-spacing: 40px;
+}
+
+.em {
+    font-size: 100px;
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+}
