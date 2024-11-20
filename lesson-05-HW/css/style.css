@@ -1,13 +1,21 @@
 .body {
-    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 .register {
     width: 300px;
-    background-color: #ffff;
+    background-color: #ffffff;
     border-bottom: 10px solid #46A358;
     padding: 52px 100px 40px 100px;
     margin: 50px auto;
+}
+
+.form-header {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #3D3D3D;
 }
 
 .default-input {
@@ -22,4 +30,65 @@
 
 .line {
     margin: 0 0 16px 0;
+}
+
+.reg-type {
+    width: 300px;
+    text-align: center;
+    color: #3D3D3D;
+    /*padding: 52px 100px 40px 100px;*/
+
+}
+
+.reg-type .choose-login {
+    text-decoration: none;
+    color: #3D3D3D;
+}
+
+.reg-type .choose-reg {
+    text-decoration: none;
+    color: #46A358;
+}
+
+.button-reg {
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #46A358;
+    padding: 12px 14px 12px 14px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    width: 300px;
+    height: 45px;
+    color: #FFFFFF;
+}
+
+.social-title {
+    height: 16px;
+    width: 300px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #3D3D3D;
+}
+
+.continue {
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    width: 298px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:#727272;
+    display: block;
+}
+
+.continue img {
+    display: inline-block;
+    vertical-align: middle;
 }
