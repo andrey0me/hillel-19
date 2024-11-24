@@ -66,10 +66,10 @@
 
 .login-box {
     display: inline-block;
-    padding: 0 0 18px 320px;
+    padding: 0 0 18px 325px;
     margin: 0;
     width: 100px;
-    font-size: 0;
+    vertical-align: top;
 }
 
 .login-img {
