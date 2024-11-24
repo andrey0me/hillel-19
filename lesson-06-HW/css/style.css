@@ -4,17 +4,23 @@
 
 .body {
     margin: 0;
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 120px 52px 120px;
 }
 
 .wrapper {
-    margin: 0 auto;
-    padding: 30px 120px 52px 120px;
+    font-size: 0;
 }
 
 .header {
     width: 1200px;
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
+    height: 53px;
+}
+
+.menu-box {
+    display: inline-block;
 }
 
 .logo {
@@ -60,12 +66,21 @@
 
 .login-box {
     display: inline-block;
-    padding: 0 0 0 312px;
+    padding: 0 0 18px 320px;
     margin: 0;
     width: 100px;
+    font-size: 0;
+}
+
+.login-img {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .login-btn {
+    display: inline-block;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
@@ -75,8 +90,10 @@
     text-decoration: none;
     font-style: normal;
     vertical-align: top;
-    padding: 9px 26px;
-    margin: 44px 0 85px 0; 
+    padding: 9px 17px;
+    width: 100px;
+    height: 35px;
+ 
 }
 
 .main {
@@ -88,12 +105,13 @@
 .planet {
     vertical-align: top;
     display: inline-block;
+    font-size: 0;
 }
 
 .planet-info {
     display: inline-block;
     vertical-align: top;
-    width: 688px;
+    width: 693px;
     padding: 0 0 0 52px;
 }
 
