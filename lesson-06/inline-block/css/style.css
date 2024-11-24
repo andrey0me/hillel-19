@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline;
+}
+
+.inline {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: block;
+}
+
+.inline-block {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: inline-block;
+    border: 10px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.wrapper {
+    width: 1000px;
+    background-color: yellow;
+}
+
+.parent {
+    font-size: 0;
+}
+
+.elem {
+    width: 250px;
+    border: 5px solid black;
+    padding: 10px;
+    font-size: 16px;
+
+    /*display и vertical-align всегда вместе*/
+    display: inline-block;
+    vertical-align: top;
+}
+
+.elem-1 {
+    font-size: 100px;
+}
+

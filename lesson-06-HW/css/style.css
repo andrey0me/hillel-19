@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 30px 120px 52px 120px;
+}
+
+.header-container {
+    width: 1200px;
+    border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
+}
+
+.logo {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 229px 17.7px 0;
+    vertical-align: top;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu .menu-item {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px 0 0;;
+}
+
+.menu .menu-link {
+    font-size: 16px;
+    color: #3D3D3D;
+    text-decoration: none;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid #46A358;
+}
+
+.main {
+    width: 1200px;
+    margin: 12px 0 0 0;
+    background: linear-gradient(98deg, rgba(245, 245, 245, 0.50) -23.46%, rgba(245, 245, 245, 0.50) 107.51%);
+}
+
+.planet {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.planet-info {
+    display: inline-block;
+    vertical-align: top;
+    width: 693px;
+    padding: 0 0 0 52px;
+}
+
+.planet-header {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    padding: 68px 0 0 0;
+    vertical-align: top;
+}
+
+.planet-h1 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 7px 0 0 0;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #3D3D3D;
+}
+
+.planet-h1-bold {
+    color: #46A358;
+}
+
+.planet-text {
+    display: inline-block;
+    padding: 5px 0 0 0;
+    margin: 0 auto;
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+    vertical-align: top;
+}
+
+.planet-picture {
+    display: inline-block;
+    width: 507px;
+    vertical-align: top;
+}
+
+.planet-picture img{
+    max-width: 507px;
+}
+
+.shop-now-link {
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: #46a358;
+    text-decoration: none;
+    vertical-align: top;
+    padding: 10px 26px; 
+    margin: 44px 0 85px 0; 
+}
