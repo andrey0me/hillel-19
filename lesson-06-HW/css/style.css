@@ -12,7 +12,7 @@
     padding: 30px 120px 52px 120px;
 }
 
-.header-container {
+.header {
     width: 1200px;
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
 }
@@ -20,25 +20,35 @@
 .logo {
     text-decoration: none;
     display: inline-block;
-    padding: 0 229px 17.7px 0;
+    margin: 0 229px 17.7px 0;
     vertical-align: top;
+    width: 150px;
+    height: 53px;
+}
+
+.logo-img {
+    max-width: 150px;
 }
 
 .menu {
     display: inline-block;
+    margin: 0;
+    padding: 7px 0 7.3px 0;
 }
 
 .menu .menu-item {
     display: inline-block;
     vertical-align: top;
-    margin: 0 50px 0 0;;
+    margin: 0 50px 0 0;
+    height: 20px;
+
 }
 
 .menu .menu-link {
     font-size: 16px;
     color: #3D3D3D;
     text-decoration: none;
-    padding-bottom: 25px;
+    padding: 0 0 25px 0;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -46,6 +56,27 @@
 
 .menu a:hover {
     border-bottom: 3px solid #46A358;
+}
+
+.login-box {
+    display: inline-block;
+    padding: 0 0 0 345px;
+    margin: 0;
+    width: 100px;
+}
+
+.login-btn {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 6px;
+    background: #46a358;
+    text-decoration: none;
+    font-style: normal;
+    vertical-align: top;
+    padding: 9px 26px;
+    margin: 44px 0 85px 0; 
 }
 
 .main {
@@ -62,7 +93,7 @@
 .planet-info {
     display: inline-block;
     vertical-align: top;
-    width: 693px;
+    width: 688px;
     padding: 0 0 0 52px;
 }
 
@@ -76,13 +107,14 @@
     text-transform: uppercase;
     padding: 68px 0 0 0;
     vertical-align: top;
+    margin: 0;
 }
 
 .planet-h1 {
     display: inline-block;
     vertical-align: top;
     padding: 7px 0 0 0;
-    font-size: 70px;
+    font-size: 68px;
     font-style: normal;
     font-weight: 900;
     line-height: 70px;
@@ -107,18 +139,14 @@
     vertical-align: top;
 }
 
-.planet-picture {
+
+.shop-now-box {
     display: inline-block;
-    width: 507px;
-    vertical-align: top;
+    padding: 44px 0 0 0;
+    margin: 0;
 }
 
-.planet-picture img{
-    max-width: 507px;
-}
-
-.shop-now-link {
-    display: inline-block;
+.shop-now-btn {
     color: #ffffff;
     font-size: 16px;
     font-weight: bold;
@@ -130,4 +158,14 @@
     vertical-align: top;
     padding: 10px 26px; 
     margin: 44px 0 85px 0; 
+}
+
+.planet-picture {
+    display: inline-block;
+    width: 507px;
+    vertical-align: top;
+}
+
+.planet-picture img{
+    max-width: 507px;
 }
