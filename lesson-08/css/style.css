@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parent {
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.elem {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.parent2 {
+    background-color: yellow;
+    display: flex;
+    width: 500px;
+    height: 150px;
+}
+
+.elem-new {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: green;
+    flex-grow: 1;
+}
+
+.parent4 {
+    background-color: yellow;
+    display: flex;
+    width: 400px;
+    height: 150px;
+}
+
+.elem-4 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: green;
+}
+
+.elem-4_02 {
+    order: 1;
+}
