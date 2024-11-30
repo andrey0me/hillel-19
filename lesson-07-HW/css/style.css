@@ -203,11 +203,8 @@
 }
 
 .pagination-link:hover {
-    color: #FFF;
+    color: #FFFF;
     font-weight: 700;
-}
-
-.pagination-img {
 }
 
 .pagination-img {
