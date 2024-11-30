@@ -36,13 +36,17 @@
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
+    padding: 14px 0 7px 0;
+    margin: 0;
 }
 
 .category-list {
     list-style: none;
+    margin: 0;
 }
 
-.category-item {
+.category-item-link {
+    text-decoration: none;
     color: #3D3D3D;
     font-size: 15px;
     font-style: normal;
@@ -50,7 +54,7 @@
     line-height: 40px;
 }
 
-.category-item:hover {
+.category-item-link:hover {
     color: #46A358;
     font-size: 15px;
     font-style: normal;
@@ -68,8 +72,7 @@
 }
 
 .item-filter-sort {
-    float: left;
-    width: 840px;
+    min-height: 26px;
 }
 
 .item-filter {
@@ -98,7 +101,7 @@
 
 .filter-link:hover {
     color: #46A358;
-    border-bottom: 3px solid #46A358;
+    border-bottom: 2px solid #46A358;
 }
 
 .item-sort {
