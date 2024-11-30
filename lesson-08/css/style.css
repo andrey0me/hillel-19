@@ -3,10 +3,11 @@
     margin: 0;
 }
 
-.parent {
+/*.parent {
     background-color: yellow;
     display: flex;
     flex-wrap: wrap;
+    ;
 }
 
 .elem {
@@ -47,4 +48,4 @@
 
 .elem-4_02 {
     order: 1;
-}
+}*/
