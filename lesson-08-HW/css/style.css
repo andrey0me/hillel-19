@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 69px auto;
+}
+
+.trend-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trend-item {
+    display: flex;
+    flex-direction: row;
+    width: 586px;
+    background: #FBFBFB;
+}
+
+.trend-img {
+    padding: 0 0 10px 0;
+}
+
+.trend-data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.trend-header {
+    margin: 89px 30px 0 0;
+    text-align: right;
+}
+
+.trend-desc {
+    margin: 9px 30px 0 0;
+    text-align: right;
+}
+
+.trend-btn {
+    display: inline-block;
+    vertical-align: center;
+    color: #ffffff;
+    flex-shrink: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    border-radius: 6px;
+    background: #46a358;
+    text-decoration: none;
+    margin: 25px 30px 46px 0;
+    padding: 11px 28px;
+    text-align: center;
+}
+
+.post-box {
+    display: flex;
+    margin: 138px 0 0 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-header {
+    color: #3D3D3D;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.post-desc {
+    margin: 15px 0 0 0;
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.post-item-box {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+    margin: 35px 0 0 0;
+}
+
+.post-item {
+    display: flex;
+    width: 268px;
+    background: #FBFBFB;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.post-item-img {}
+
+.post-item-img-info {
+    margin: 8.83px 0 0 15px;
+    color: #46A358;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.post-item-header {
+    margin: 4px 0 0 15px;
+    color: #3D3D3D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.post-item-desc {
+    margin: 4px 0 0 15px;
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    flex-shrink: 0;
+}
+
+.post-item-btn {
+    margin: 9px 0 0 15px;
+    display: inline-block;
+    vertical-align: center;
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+    text-align: center;
+}
