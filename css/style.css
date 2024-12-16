@@ -153,6 +153,7 @@
     margin: 0;
     text-decoration: none;
     margin: 0 30px 0 0;
+    width: 24px;
 }
 
 /*Корзина*/
@@ -161,6 +162,7 @@
     text-decoration: none;
     position: relative;
     margin: 0 35px 0 0;
+    width: 24px;
 }
 
 .basket-counter {
@@ -472,36 +474,36 @@
     align-items: center;
 }
 
-.basket-img {
+.modal-basket-img {
     background: #FFF;
     width: 35px;
     text-align: center;
     flex-shrink: 0;
 }
 
-.like-img {
+.modal-like-img {
     background: #FFF;
     width: 35px;
     text-align: center;
     flex-shrink: 0;
 }
 
-.search-img {
+.modal-search-img {
     background: #FFF;
     width: 35px;
     text-align: center;
     flex-shrink: 0;
 }
 
-.basket-img:hover svg path {
+.modal-basket-img:hover svg path {
     fill: #46A358;
 }
 
-.like-img:hover svg path {
+.modal-like-img:hover svg path {
     fill: #46A358;
 }
 
-.search-img:hover svg path {
+.modal-search-img:hover svg path {
     fill: #46A358;
 }
 
