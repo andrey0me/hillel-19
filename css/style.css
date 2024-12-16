@@ -483,6 +483,7 @@
     width: 35px;
     text-align: center;
     flex-shrink: 0;
+    margin: 0 7px;
 }
 
 .modal-like-img {
@@ -490,6 +491,7 @@
     width: 35px;
     text-align: center;
     flex-shrink: 0;
+    margin: 0 7px;
 }
 
 .modal-search-img {
