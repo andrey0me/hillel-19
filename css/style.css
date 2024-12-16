@@ -447,8 +447,12 @@
 .item-product {
     padding: 0 10px 70px;
     width: 33.333%;
+    border-top: 1px solid transparent;
 }
 
+.item-product:hover {
+    border-top: 1px solid #46A358;
+}
 
 .item-product-modal {
     display: none;
