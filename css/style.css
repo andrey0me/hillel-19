@@ -93,7 +93,8 @@
 
 .wrapper {
     margin: 30px auto;
-    width: 1200px;
+    width: 1220px;
+    padding: 0 10px;
 }
 
 
@@ -484,10 +485,13 @@
 .item-product {
     padding: 0 10px 70px;
     width: 33.333%;
+}
+
+.item-img-box{
     border-top: 1px solid transparent;
 }
 
-.item-product:hover {
+.item-img-box:hover {
     border-top: 1px solid #46A358;
 }
 
