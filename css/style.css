@@ -119,8 +119,10 @@
 }
 
 .menu {
+    display: flex;
     margin: 0;
     padding: 7px 0 7.3px 0;
+    list-style: none;
 }
 
 .menu .menu-item {
@@ -143,6 +145,10 @@
 .menu a:hover {
     border-bottom: 3px solid #46A358;
 }
+
+/*.sub-menu {
+    display: none;
+}*/
 
 .menu-right-box {
     display: flex;
@@ -385,9 +391,9 @@
     justify-content: space-between;
 }
 
-.item-filter {
+/*.item-filter {
     
-}
+}*/
 
 .filter-list {
     padding: 0;
@@ -414,8 +420,8 @@
     border-bottom: 2px solid #46A358;
 }
 
-.item-sort {
-}
+/*.item-sort {
+}*/
 
 .item-sort-caption {
     color: #3D3D3D;
@@ -441,7 +447,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 0 -10px;
+    margin: 31px -10px 0 -10px;
 }
 
 .item-product {
