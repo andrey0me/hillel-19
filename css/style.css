@@ -102,7 +102,7 @@
 
 .header {
     border-bottom: 0.3px solid rgba(70, 163, 88, 0.50);
-    height: 53px;
+    height: 56px;
 }
 
 .menu-box {
@@ -153,7 +153,7 @@
 
 .sub-menu {
     position: absolute;
-    top: 45px;
+    top: 49px;
     list-style: none;
     width: 188px;
     display: none;
