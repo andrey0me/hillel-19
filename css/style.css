@@ -143,7 +143,7 @@
     line-height: normal;
 }
 
-.menu > .menu-item:hover > .menu-link {
+.menu>.menu-item:hover>.menu-link {
     border-bottom: 3px solid #46A358;
 }
 
@@ -178,14 +178,15 @@
     background-color: rgba(70, 163, 88, 0.3);
 }
 
-.menu > .dropdown-menu:hover .sub-menu {
+.menu>.dropdown-menu:hover .sub-menu {
     display: flex;
-} 
+}
 
 .menu-right-box {
     display: flex;
     align-items: center;
 }
+
 /*Поиск*/
 .search-btn {
     margin: 0;
@@ -260,13 +261,13 @@
     justify-content: space-between;
     font-size: 0;
     margin: 0 -10px;
+    padding: 0 0 0 40px;
 }
 
 .planet-info {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
-    width: 58.33%;
+    width: 50%;
     padding: 0 10px;
 }
 
@@ -304,7 +305,7 @@
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px; 
+    line-height: 24px;
 }
 
 
@@ -323,17 +324,18 @@
     background: #46a358;
     text-decoration: none;
     vertical-align: top;
-    padding: 10px 26px; 
-    margin: 44px 0 85px 0; 
+    padding: 10px 26px;
+    margin: 44px 0 85px 0;
 }
 
-.planet-picture{
-    width: 41.666%;
+.planet-picture {
+    width: 50%;
     padding: 0 10px;
 }
 
 .planet-picture-img {
     max-width: 100%;
+    padding: 0 0 0 113px;
 }
 
 .content {
@@ -349,12 +351,11 @@
     flex-direction: column;
     width: 25%;
     padding: 0 10px;
-    background-color: #FBFBFB;
 }
 
 .category-box {
-    padding: 0 0 0 18px;
     min-height: 774px;
+    background-color: #FBFBFB;
 }
 
 .category-caption {
@@ -363,13 +364,14 @@
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
-    padding: 14px 0 7px 0;
+    padding: 14px 0 7px 16.5px;
     margin: 0;
 }
 
 .category-list {
     list-style: none;
     margin: 0;
+    padding: 0;
 }
 
 .category-item {
@@ -384,6 +386,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+    padding: 0 0 0 22.58px;
 }
 
 .category-item-counter {
@@ -393,9 +396,12 @@
     font-style: normal;
     font-weight: 400;
     line-height: 40px;
+    padding: 0 22.06px 0 0;
+
 }
 
-.category-item-link:hover, .category-item-counter:hover {
+.category-item-link:hover,
+.category-item-counter:hover {
     color: #46A358;
     font-size: 15px;
     font-style: normal;
@@ -468,9 +474,9 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 16px; 
-    border:0px;
-    outline:0px;  
+    line-height: 16px;
+    border: 0px;
+    outline: 0px;
 }
 
 /*правая часть - товары*/
@@ -487,7 +493,7 @@
     width: 33.333%;
 }
 
-.item-img-box{
+.item-img-box {
     border-top: 1px solid transparent;
 }
 
@@ -506,6 +512,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+
 }
 
 .item-img-box:hover .item-product-modal {
@@ -573,7 +580,7 @@
     line-height: 16px;
     height: 29px;
     padding: 7px 8px 6px 9px;
-    }
+}
 
 .item-header {
     color: #3D3D3D;
@@ -644,7 +651,7 @@
     font-style: normal;
     font-weight: 300;
     line-height: 16px;
-    padding: 8px 7px; 
+    padding: 8px 7px;
     text-align: center;
     display: block;
 }
@@ -658,14 +665,14 @@
     background-repeat: no-repeat;
     background-image: url("../img/arrow.svg");
     background-position: center;
-   
+
 }
 
 .pagination-img:hover {
     background-repeat: no-repeat;
     background-image: url("../img/arrow-selected.svg");
     background-position: center;
-   
+
 }
 
 /*Нижний блок с трендами*/
@@ -682,9 +689,12 @@
 
 .trend-item {
     width: 50%;
+    padding: 0 10px;
+}
+
+.trend-item-box {
     display: flex;
     background: #FBFBFB;
-    padding: 0 10px;
 }
 
 .trend-item-img {
@@ -769,7 +779,7 @@
     margin: 15px 0 0 0;
 }
 
-.post-item-box {
+.post-item-container {
     display: flex;
     margin: 35px -10px 0 -10px;
     justify-content: space-between;
@@ -778,6 +788,9 @@
 .post-item {
     width: 25%;
     padding: 0 10px;
+}
+
+.post-item-box {
     background: #FBFBFB;
 }
 
