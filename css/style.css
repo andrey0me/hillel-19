@@ -528,24 +528,36 @@
 
 .modal-basket-img {
     background: #FFF;
+    border-radius: 10%;
     width: 35px;
-    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     margin: 0 7px;
 }
 
 .modal-like-img {
     background: #FFF;
+    border-radius: 10%;
     width: 35px;
-    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     margin: 0 7px;
 }
 
 .modal-search-img {
     background: #FFF;
+    border-radius: 10%;
     width: 35px;
-    text-align: center;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
 }
 
