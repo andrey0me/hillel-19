@@ -89,10 +89,11 @@
 
 .body {
     font-family: 'Cera Pro', sans-serif;
+    margin-top: 30px;
 }
 
 .wrapper {
-    margin: 30px auto;
+    margin: 0 auto;
     width: 1220px;
     padding: 0 10px;
 }
@@ -856,4 +857,254 @@
 
 .post-item-btn:hover svg path {
     fill: #46A358;
+}
+
+.join-box {
+    margin: 100px -10px 0 -10px;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 1px solid #46A358;
+}
+
+.join-item-box {
+    display: flex;
+    width: 66.666%;
+    padding: 0 10px;
+}
+
+.join-item-border {
+    width: 33.333%;
+    padding: 0 0 27px 0;
+}
+
+.border-right {
+    border-right: 1px solid rgba(70, 163, 88, 0.10);
+}
+
+.join-item {
+    padding: 0 28px 0 25px;
+}
+
+.join-item-img {
+    max-width: 100%;
+    height: 95px;
+    
+}
+
+.join-item-header {
+    color: #3D3D3D;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 15px 0 0 0;
+}
+
+.join-item-desc {
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 9px 0 0 0;
+}
+
+.join-block {
+    width: 33.333%;
+    padding: 0 10px 23px 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.join-block-header {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.join-form {
+    display: flex;
+    width: 100%;
+    margin: 18px 0 0 0;
+    position: relative;
+    padding: 0 25px 0 0;
+}
+
+.join-email {
+    border-radius: 6px;
+    background: #FFF;
+    border: 0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    height: 40px;
+    padding: 12px 0 12px 11px;
+}
+
+.join-btn {
+    width: 20%;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    right: 25px;
+    top: 0;
+    min-width: 85px;
+    border-radius: 0px 6px 6px 0px;
+    background: #46A358;
+    text-decoration: none;
+    padding: 9px 18px;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.join-desc {
+    margin: 17px 0 0 0;
+    color: #727272;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+/*Зеленая линия*/
+.crossline-box {
+    display: flex;
+    height: 88px;
+    margin: 0 -10px;
+    padding: 0 0 0 143px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(70, 163, 88, 0.10);
+}
+
+.crossline-item {
+    display: flex;
+    width: 220px;
+    margin: 0 87px 0 0;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.crossline-img {
+    width: 20px;
+    height: 20px;
+    margin: 0 9px 0 0;
+}
+
+.crossline-text {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+/*Подвал*/
+
+.footer-box {
+    margin: 0 -10px;
+
+}
+
+.footer-main-block {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #46A358;
+    border-bottom: 1px solid #46A358;
+}
+
+.footer-item-box {
+    display: flex;
+    width: 66.666%;
+    padding: 0 10px;
+    padding: 32px 0 29px 0;
+}
+
+.footer-item {
+    width: 33.333%;
+    padding: 0 28px 0 25px;
+}
+
+.footer-item-header {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.footer-item-list {
+    color: #3D3D3D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    list-style: none;
+    padding: 0;
+}
+
+.footer-block {
+    width: 33.333%;
+    padding: 0 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-link-box {
+    margin: 33px 0 0 0; 
+}
+
+.footer-link-header {
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.footer-link-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.footer-link-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(70, 163, 88, 0.20);
+    margin: 0 10px 0 0;
+}
+
+.footer-link-img {
+    max-width: 100%;
+}
+
+.footer-link-paysystems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 224px;
+    border-radius: 4px;
+    margin: 0 10px 0 0;
+}
+
+.footer-allrights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-allrights-text {
+    padding: 7px 0 13px 0;
 }
