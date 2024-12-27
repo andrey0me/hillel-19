@@ -489,7 +489,7 @@
     height: 4px;
     background: rgba(70, 163, 88, 0.20);
     position: relative;
-    
+
 }
 
 .ui-slider-handle {
@@ -516,10 +516,16 @@
 
 .slider-amount-label {
     padding: 0 5px 0 0;
- }
+    color: #3D3D3D;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
 
 #slider-amount {
     border: 0;
+    padding: 3px 0 0 0;
     color: #46A358;
     font-size: 15px;
     font-style: normal;
