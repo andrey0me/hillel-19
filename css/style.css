@@ -92,6 +92,17 @@
     margin-top: 30px;
 }
 
+.visual-hiden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .wrapper {
     margin: 0 auto;
     width: 1220px;
@@ -454,13 +465,16 @@
 
 }
 
-.category-item-link:hover,
-.category-item-counter:hover {
-    color: #46A358;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
+.category-item:hover {
+
+    .category-item-link,
+    .category-item-counter {
+        color: #46A358;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
 }
 
 /*Slider*/
@@ -577,12 +591,12 @@
     padding: 0;
 }
 
-.size-item {
+.size-label {
     display: flex;
     justify-content: space-between;
 }
 
-.size-item-link {
+.size-item-text {
     text-decoration: none;
     color: #3D3D3D;
     font-size: 15px;
@@ -590,6 +604,23 @@
     font-weight: 400;
     line-height: 40px;
     padding: 0 0 0 22.58px;
+}
+
+.size-item-text::before {
+    content: '';
+    height: 24px;
+    width: 24px;
+    border: 1px solid #3D3D3D;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 11px 0 0;
+}
+
+.size-checkbox:checked + .size-item-text::before {
+    background-image: url("../img/chacked.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .size-item-counter {
@@ -603,13 +634,16 @@
 
 }
 
-.size-item-link:hover,
-.size-item-counter:hover {
-    color: #46A358;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
+.size-item:hover {
+
+    .size-item-text,
+    .size-item-counter {
+        color: #46A358;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
 }
 
 
@@ -1289,11 +1323,12 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 20px 0 0 0;
     padding: 0;
 }
 
-.footer-link-element {
+.footer-link-element .default-link {
     display: flex;
     justify-content: center;
     align-items: center;
