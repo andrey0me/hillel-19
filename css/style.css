@@ -1229,14 +1229,13 @@
 .crossline-box {
     height: 88px;
     background-color: rgba(70, 163, 88, 0.10);
-    display: flex;  
-    justify-content: center;
+    align-content: center;
 }
 
 .crossline-item-box {
     display: flex;  
     margin: 0 -10px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
