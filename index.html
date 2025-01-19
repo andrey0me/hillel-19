@@ -53,33 +53,36 @@
                         </defs>
                     </svg>
                 </a>
-                <ul class="menu">
-                    <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Shop</a></li>
-                    <li class="menu-item dropdown-menu">
-                        <a class="menu-link" href="#">Plant Care</a>
-                        <ul class="sub-menu">
-                            <li class="sub-menu-item"><a class="sub-menu-link" href="#">Drainage</a></li>
-                            <li class="sub-menu-item"><a class="sub-menu-link" href="#">Fungicides</a></li>
-                            <li class="sub-menu-item"><a class="sub-menu-link" href="#">Fertilizer</a></li>
-                            <li class="sub-menu-item"><a class="sub-menu-link" href="#">Priming</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item"><a class="menu-link" href="#">Blogs</a></li>
-                </ul>
-                <div class="menu-right-box">
-                    <a class="search-btn" href="#">
-                        <img class="search-img img-responsive" src="img/search.svg" alt="search">
-                    </a>
-                    <a class="basket-btn" href="#">
-                        <img class="basket-img img-responsive" src="img/basket.svg" alt="basket">
-                        <div class="basket-counter">
-                            <span class="basket-counter-text">6</span>
-                        </div>
-                    </a>
-                    <a class="login-btn" href="#">
-                        <span>Login</span>
-                    </a>
+                <button type="button" class="mobile-menu js-mobile-menu-btn"></button>
+                <div class="menu-main-box js-mobile-menu">
+                    <ul class="menu">
+                        <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
+                        <li class="menu-item"><a class="menu-link" href="#">Shop</a></li>
+                        <li class="menu-item dropdown-menu">
+                            <a class="menu-link" href="#">Plant Care</a>
+                            <ul class="sub-menu">
+                                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Drainage</a></li>
+                                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Fungicides</a></li>
+                                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Fertilizer</a></li>
+                                <li class="sub-menu-item"><a class="sub-menu-link" href="#">Priming</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item"><a class="menu-link" href="#">Blogs</a></li>
+                    </ul>
+                    <div class="menu-right-box">
+                        <a class="search-btn" href="#">
+                            <img class="search-img" src="img/search.svg" alt="search">
+                        </a>
+                        <a class="basket-btn" href="#">
+                            <img class="basket-img" src="img/basket.svg" alt="basket">
+                            <div class="basket-counter">
+                                <span class="basket-counter-text">6</span>
+                            </div>
+                        </a>
+                        <a class="login-btn" href="#">
+                            <span class="login-btn-text">Login</span>
+                        </a>
+                    </div>
                 </div>
             </nav>
         </header>
@@ -585,7 +588,7 @@
                                 plants</p>
                             <a class="trend-item-btn" href="#">
                                 <span class="trend-item-btn-caption">Find More</span>
-                                <img src="img/arrow-white.svg" alt="arrow-white">
+                                <img class="img-responsive" src="img/arrow-white.svg" alt="arrow-white">
                             </a>
                         </div>
                     </div>
@@ -600,7 +603,7 @@
                                 plants</p>
                             <a class="trend-item-btn" href="#">
                                 <span>Find More</span>
-                                <img src="img/arrow-white.svg" alt="arrow-white">
+                                <img class="img-responsive" src="img/arrow-white.svg" alt="arrow-white">
                             </a>
                         </div>
                     </div>
@@ -770,24 +773,24 @@
         <div class="wrapper crossline-item-box">
             <div class="crossline-item">
                 <a class="logo" href="#">
-                    <img class="logo-img img-responsive" src="img/greenshop-logo.svg" alt="img">
+                    <img class="logo-img" src="img/greenshop-logo.svg" alt="img">
                 </a>
             </div>
             <div class="crossline-item">
-                <img class="crossline-img img-responsive" src="img/location.svg" alt="location">
+                <img class="crossline-img" src="img/location.svg" alt="location">
                 <p class="crossline-text">
                     70 West Buckingham Ave.
                     Farmingdale, NY 11735
                 </p>
             </div>
             <div class="crossline-item">
-                <img class="crossline-img img-responsive" src="img/email.svg" alt="email">
+                <img class="crossline-img" src="img/email.svg" alt="email">
                 <a href="mailto:contact@greenshop.com" class="crossline-text default-link">
                     contact@greenshop.com
                 </a>
             </div>
             <div class="crossline-item">
-                <img class="crossline-img img-responsive" src="img/phone.svg" alt="phone">
+                <img class="crossline-img" src="img/phone.svg" alt="phone">
                 <a href="tel:+8801911717490" class="crossline-text default-link">
                     +88 01911 717 490
                 </a>
@@ -853,9 +856,12 @@
                     <article class="footer-link-box">
                         <h3 class="footer-link-header">We accept</h3>
                         <ul class="footer-link-list">
-                            <li class="footer-link-paysystems"><a class="default-link" href="#"><img
-                                        class="footer-link-img img-responsive" src="img/paysystems.png"
-                                        alt="paysystems"></a></li>
+                            <li class="footer-link-paysystems">
+                                <a class="default-link" href="#">
+                                    <img class="footer-link-img img-responsive" src="img/paysystems.png"
+                                        alt="paysystems">
+                                </a>
+                            </li>
                         </ul>
                     </article>
                 </div>
