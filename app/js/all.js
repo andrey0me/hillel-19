@@ -4018,7 +4018,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
     return o;
   };
 });
-$('.js-slider').slick({
+$('.js-ideas-slider').slick({
   dots: false,
   infinite: false,
   arrows: false,
@@ -4027,4 +4027,12 @@ $('.js-slider').slick({
   centerMode: false,
   variableWidth: true,
   mobileFirst: true
+});
+$('.js-team-slider').slick({
+  dots: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  infinite: true,
+  arrows: false,
+  speed: 200
 });

@@ -1,0 +1,128 @@
+.team-slider {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+    .slick-dots {
+        text-decoration: none;
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        column-gap: 15px;
+        margin-top: 30px;
+
+        li {
+            
+            button {
+                border: none;
+                background-color: transparent;
+                border-radius: 50%;
+                background-color: #24A3FF;
+                opacity: 0.2;
+                background-size: 16px 16px;
+                width: 16px;
+                height: 16px;
+                font-size: 0;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+            
+            &.slick-active {
+                button {
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+
+    .team-box {
+        display: flex;
+        flex-direction: column;
+
+        .team-content {
+            display: flex;
+            flex-direction: column;
+
+
+            .team-img {
+                border-radius: 12px 12px 0px 0px;
+                height: 500px;
+                width: 100%;
+                object-fit: cover;
+            }
+
+            .team-h-box {
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                padding: 30px;
+                gap: 30px;
+                border-radius: 0 0 12px 12px;
+                background: #F5F5FA;
+
+                .team-h3 {
+                    display: flex;
+                    align-items: center;
+                    color: #24A3FF;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                }
+
+                .team-p {
+                    align-self: stretch;
+                    word-wrap: break-word;
+                    margin-top: 5px;
+                    font-size: 30px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    background: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+
+                .team-name {
+                    align-self: stretch;
+                    color: #B3B3BA;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+                .team-post {
+                    align-self: stretch;
+                    color: #B3B3BA;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .team-slider {
+        .team-box {
+            .team-content {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+
+    .team-img {
+        max-width: 400px;
+        height: 100%;
+    }
+}

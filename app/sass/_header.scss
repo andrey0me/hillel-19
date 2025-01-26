@@ -85,20 +85,20 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
 
-.logo-box__page::before {
-    content: '';
-    background-image: url('../img/slash.svg');
-    width: 12px;
-    height: 26px;
-    background-size: 12px 26px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: transparent;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    &::before {
+        content: '';
+        background-image: url('../img/slash.svg');
+        width: 12px;
+        height: 26px;
+        background-size: 12px 26px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
 }
 
 .menu {

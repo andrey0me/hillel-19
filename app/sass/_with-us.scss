@@ -1,0 +1,121 @@
+.with-us {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+
+    .with-us-header {
+        color: #323264;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .with-us-content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        .with-us-item {
+            display: flex;
+            height: 120px;
+            padding: 36px 78px 36px 80px;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+               display: flex;
+               
+            }
+
+            &.el-1 {
+                background-color: #1C4280;
+            }
+
+            &.el-2 {
+                background-color: #143646;
+            }
+
+            &.el-3 {
+                background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30;
+            }
+
+            &.el-4 {
+                background-color: #9E4DC3;
+            }
+
+            &.el-5 {
+                background-color: #FD9339;
+            }
+
+            &.el-6 {
+                background-color: #E2E2E4;
+            }
+
+            &.el-7 {
+                background-color: #C71C36;
+            }
+
+            &.el-8 {
+                background-color: #DCF3F9;
+            }
+
+            &.el-9 {
+                background-color: #EAEAEA;
+            }
+
+            &.el-10 {
+                background-color: #282240;
+            }
+
+            &.el-11 {
+                background-color: #1D4568;
+            }
+
+            &.el-12 {
+                background-color: #000;
+            }
+
+            &:nth-child(n+7) {
+                display: none;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 768px) {
+    .with-us {
+        .with-us-content {
+            grid-template-columns: repeat(3,1fr);
+
+            .with-us-item {
+
+                &:nth-child(n+7) {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .with-us {
+        .with-us-content {
+            grid-template-columns: repeat(4,1fr);
+
+            .with-us-item {
+
+                &:nth-child(n+7) {
+                    display: flex;
+                }
+            }
+        }
+    }
+}
