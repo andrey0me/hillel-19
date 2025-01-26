@@ -1,0 +1,104 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.services-header-box {
+    display: flex;
+}
+
+.services-h-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.services-h3 {
+    display: flex;
+    align-items: center;
+    color: #24A3FF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.services-h4 {
+    align-self: stretch;
+    margin-top: 10px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background: linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services-content-box {
+    margin-top: 30px;
+    display: grid;
+    row-gap: 30px;
+
+    .services-content__item {
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        .services-content__img {
+            width: 64px;
+            height: 64px;
+            border-radius: 24px;
+            background: #FFF;
+            padding: 14px;
+        }
+
+        .services-content__text {
+            display: flex;
+            flex-direction: column;
+            row-gap: 15px;
+
+            .services-content__h3 {
+                color: #24A3FF;
+                font-family: Montserrat;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            .services-content__p {
+                color: #FFF;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 26px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .services-content-box {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto;
+        column-gap: 60px;
+        .services-h4 {
+            font-size: 38px;
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .services-content-box {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto auto;
+        column-gap: 60px;
+    }
+}

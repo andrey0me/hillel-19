@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+    &::after,
+    &::before {
+        box-sizing: border-box;
+    }
+}
+
+.body {
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0;
+}
+
+.visual-hiden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.wrapper {
+    max-width: 1350px;
+    min-width: 345px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
